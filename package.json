@@ -1,10 +1,10 @@
 {
   "name": "react.leaflet.fullscreen",
-  "version": "1.0.0",
+  "version": "1.0.0-beta",
   "description": "Plugin For react-leaflet for Fullscreen Control",
-  "main": "Fullscreen.jsx",
+  "main": "Fullscreen.js",
   "scripts": {
-    "start": "babel Fullscreen.jsx > Fullscreen.js"
+    "start": "babel FullscreenComponent.js > Fullscreen.js"
   },
   "repository": {
     "type": "git",
@@ -38,7 +38,8 @@
   },
   "dependencies": {
     "@react-leaflet/core": "^1.0.2",
-    "leaflet.fullscreen": "^2.0.0"
+    "leaflet.fullscreen": "^2.0.0",
+    "screenfull": "^5.1.0"
   },
   "bugs": {
     "url": "https://github.com/elangobharathi/react.leaflet.fullscreen/issues"
