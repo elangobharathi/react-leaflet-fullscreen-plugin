@@ -7,6 +7,8 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports["default"] = void 0;
 
+var _react = _interopRequireDefault(require("react"));
+
 var _core = require("@react-leaflet/core");
 
 var _reactLeaflet = require("react-leaflet");
@@ -19,11 +21,11 @@ var _screenfull = _interopRequireDefault(require("screenfull"));
 
 require("./Control.FullScreen.css");
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
-
 function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "function") return null; var cacheBabelInterop = new WeakMap(); var cacheNodeInterop = new WeakMap(); return (_getRequireWildcardCache = function _getRequireWildcardCache(nodeInterop) { return nodeInterop ? cacheNodeInterop : cacheBabelInterop; })(nodeInterop); }
 
 function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && obj.__esModule) { return obj; } if (obj === null || _typeof(obj) !== "object" && typeof obj !== "function") { return { "default": obj }; } var cache = _getRequireWildcardCache(nodeInterop); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj["default"] = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
 
 function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) { symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); } keys.push.apply(keys, symbols); } return keys; }
 
@@ -64,7 +66,7 @@ var FullscreenWithEvents = function FullscreenWithEvents(_ref2) {
       props = _objectWithoutProperties(_ref2, ["eventHandlers"]);
 
   (0, _reactLeaflet.useMapEvents)(_objectSpread({}, getEventsFromProps(eventHandlers)));
-  return /*#__PURE__*/React.createElement(Fullscreen, props);
+  return /*#__PURE__*/_react["default"].createElement(Fullscreen, props);
 };
 
 var _default = FullscreenWithEvents;

@@ -1,6 +1,6 @@
 {
-  "name": "react.leaflet.fullscreen",
-  "version": "1.0.0-beta",
+  "name": "react-leaflet-fullscreen-plugin",
+  "version": "1.0.0",
   "description": "Plugin For react-leaflet for Fullscreen Control",
   "main": "Fullscreen.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/elangobharathi/react.leaflet.fullscreen.git"
+    "url": "git+https://github.com/elangobharathi/react-leaflet-fullscreen-plugin.git"
   },
   "author": "Elango Bharathi Dhandapani",
   "license": "MIT",
@@ -18,7 +18,8 @@
     "react-leaflet-v3",
     "fullscreen",
     "leaflet.fullscreen",
-    "react.leaflet.fullscreen"
+    "react-leaflet-fullscreen",
+    "react-leaflet-fullscreen-plugin"
   ],
   "peerDependencies": {
     "leaflet": "^1.3.3",
@@ -42,7 +43,7 @@
     "screenfull": "^5.1.0"
   },
   "bugs": {
-    "url": "https://github.com/elangobharathi/react.leaflet.fullscreen/issues"
+    "url": "https://github.com/elangobharathi/react-leaflet-fullscreen-plugin/issues"
   },
-  "homepage": "https://github.com/elangobharathi/react.leaflet.fullscreen#readme"
+  "homepage": "https://github.com/elangobharathi/react-leaflet-fullscreen-plugin#readme"
 }

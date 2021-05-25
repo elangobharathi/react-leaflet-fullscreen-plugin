@@ -1,3 +1,4 @@
+import React from 'react';
 import { createControlComponent } from '@react-leaflet/core';
 import { useMapEvents } from 'react-leaflet';
 import * as L from 'leaflet';
