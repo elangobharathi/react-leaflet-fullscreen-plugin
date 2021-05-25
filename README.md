@@ -1,4 +1,4 @@
-# react.leaflet.fullscreen
+# react-leaflet-fullscreen-plugin
 
 Plugin for [react-leaflet v3](https://github.com/PaulLeCam/react-leaflet) to integrate [leaflet.fullscreen](https://github.com/brunob/leaflet.fullscreen).
 
