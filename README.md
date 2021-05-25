@@ -2,7 +2,7 @@
 
 Plugin for [react-leaflet v3](https://github.com/PaulLeCam/react-leaflet) to integrate [leaflet.fullscreen](https://github.com/brunob/leaflet.fullscreen).
 
-Click here to see the [codesandbox demo](https://codesandbox.io/s/react-leaflet-freedraw-example-1fy3l?file=/src/App.js).
+Click here to see the [codesandbox demo](https://codesandbox.io/s/react-leaflet-fullscreen-plugin-example-k17g2?file=/src/Example.js).
 
 ## Install
 
